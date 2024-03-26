@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta property="og:description" content="▬▬ι═══════ﺤ" />
+    <meta property="og:footer" content="thx|cool" />
+    <meta property="og:url" content="https://evilhide.com" />
+    <link rel="icon" href="https://folopio.com/images.jpg">
+    <h1> Free Copy Of Macbeth Provided by Ethan</h1>
+  <title>Ethan Owns u</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            margin: 0;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #444;
+            background-color: #1f1f1f;
+            color: #ffffff;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            background-color: #ff5f6d;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #ff3d4a;
+        }
+
+        #embedCode {
+            margin-top: 20px;
+            border: 1px solid #444;
+            padding: 20px;
+            background-color: #1f1f1f;
+            border-radius: 5px;
+            animation: fadeIn 1s ease-in-out forwards;
+            opacity: 0;
+        }
+
+        h3 {
+            margin-top: 20px;
+            font-size: 20px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 10px;
+            animation: fadeIn 1s ease-in-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .tutorial {
+            margin-top: 30px;
+            border-top: 1px solid #444;
+            padding-top: 20px;
+            animation: slideInRight 1s ease-in-out forwards;
+            opacity: 0;
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(50px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .big-button {
+            display: inline-block;
+            padding: 20px 40px;
+            background-color: #009688;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .big-button:hover {
+            background-color: #00796b;
+        }
+
+        #content {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <div id="embedCode"></div>
+
+    <h3>Macbeth Versions:</h3>
+    <button type="button" onclick="setPredefinedEmbed('tt2884018')">Macbeth 2015</button>
+    <button type="button" onclick="setPredefinedEmbed('tt0067372')">Macbeth 1971</button>
+</div>
+<div id="result"></div>
+
+<script>
+    window.onload = function() {
+        testDoubleClick();
+    };
+
+    function testDoubleClick() {
+        var img = new Image();
+        img.src = 'https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-123456-1&cid=555&t=event&ec=button&ea=click&el=test';
+        img.onload = function() {
+            document.getElementById('result').innerText = 'AD BLOCK NOT DETECTED NO ACCESS TO SITE';
+            showInstallTutorial();
+        };
+        img.onerror = function() {
+            document.getElementById('result').innerText = 'Ad Block Detected <$.';
+            showContent();
+        };
+    }
+
+    function showContent() {
+        document.getElementById('content').style.display = 'block';
+    }
+
+    function generateEmbedURL(movieID) {
+        var embedURL = "https://vidsrc.to/embed/movie/" + movieID;
+        var embedCode = '<iframe src="' + embedURL + '" width="800" height="450" frameborder="0" allowfullscreen></iframe>';
+        document.getElementById("embedCode").innerHTML = embedCode;
+    }
+
+    function setPredefinedEmbed(movieID) {
+        generateEmbedURL(movieID);
+    }
+</script>
+</body>
+</html>
